@@ -41,7 +41,7 @@ const Footer = () => {
       <Flex flexDirection={['column', 'column', 'row']} alignItems="center">
         <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
           <ButtonMenuItem>V2</ButtonMenuItem>
-          <ButtonMenuItem as="a" href="https://v1exchange.pancakeswap.finance/#/">
+          <ButtonMenuItem as="a" href="/swap">
             V1 (old)
           </ButtonMenuItem>
         </ButtonMenu>
@@ -65,7 +65,7 @@ const Footer = () => {
             id="clickExchangeHelp"
             as="a"
             external
-            href="https://docs.pancakeswap.finance/products/pancakeswap-exchange"
+            href="/swap"
             variant="subtle"
           >
             {t('Need help ?')}
